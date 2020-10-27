@@ -68,7 +68,7 @@ bypass(url)
 
 
 function bypass(url) {
-    var api = "https://linkvertisebypasser.herokuapp.com/api?url="
+    var api = "https://linkunshortner.herokuapp.com/api?url="
     fetch(api+url).then(r=>r.json().then(json => {
        if(json.success) {
         document.getElementById("h").innerHTML = "Bypassed "+json.type+"!";
