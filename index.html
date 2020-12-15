@@ -1,482 +1,63 @@
 <!DOCTYPE html>
 <html>
-
     <head>
-        <title>LinkUnShortner | Main</title>
+        <title>LinkUnshortener</title>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta property="og:title" content="{ Link UnShortner }" />
+        <meta property="og:title" content="{ Link Unshortener }" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://linkunshortner.tk" />
-        <meta name='twitter:card' content='summary_large_image' />
-        <meta property="og:image"
-            content="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png" />
-        <meta name="og:description" content="Support Types: Linkvertise, Sub2Unlock, Gesty and Adfly" />
-        <meta name="theme-color" content="#ffae28" />
+        <meta property="og:url" content="https://linkunshortener.tk/index.html" />
+        <meta name='twitter:card' content='summary_large_image'/>
+        <meta property="og:image" content="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png" />
+        <meta name="og:description" content="Support Types : Linkvertise, Sub2Unlock, Gesty and Adfly"/>
+        <meta name="theme-color" content="#ffae28"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <meta name="author" content="Meowtrix" />
-        <link rel="shortcut icon"
-            href="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png"
-            type="image/x-icon" />
-        <meta itemprop="image"
-            content="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png" />
-        <link rel="image_src"
-            href="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png" />
-        <meta name="keywords" content="bypasser, linkunshortener, linkvertisebypass, adflybypasser" />
+        <meta name="author" content="Meowtrix"/>
+        <link rel="shortcut icon" href="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png" type="image/x-icon"/>
+        <meta itemprop="image" content="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png"/>
+        <link rel="image_src" href="https://media.discordapp.net/attachments/523256318824415282/763186861732134963/linkunshortner_logo.png"/>
+        <meta name="keywords" content="bypasser, linkunshortener, linkvertisebypass, adflybypasser"/>
         <meta http-equiv="Pragma" content="No-Cache">
-        <meta http-equiv="Cache-Control" content="No-Cache,Must-Revalidate,No-Store" />
-        <meta name="Robots" content="NoIndex" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://too.lewd.se/6fe0b269ae37_style.css">
-        <link rel="stylesheet" href="https://too.lewd.se/18ee10066023_lightbox.css">
-        <link rel="stylesheet" href="https://too.lewd.se/930471be8850_plugins.css">
-        <script>
-            Object.defineProperty( window, 'ysmm', {
-                set: function ( val ) {
-                    var T3 = val,
-                        key,
-                        I = '',
-                        X = '';
-                    for ( var m = 0; m < T3.length; m++ ) {
-                        if ( m % 2 == 0 ) {
-                            I += T3.charAt( m );
-                        } else {
-                            X = T3.charAt( m ) + X;
-                        }
-                    }
-                    T3 = I + X;
-                    var U = T3.split( '' );
-                    for ( var m = 0; m < U.length; m++ ) {
-                        if ( !isNaN( U[ m ] ) ) {
-                            for ( var R = m + 1; R < U.length; R++ ) {
-                                if ( !isNaN( U[ R ] ) ) {
-                                    var S = U[ m ] ^ U[ R ];
-                                    if ( S < 10 ) {
-                                        U[ m ] = S;
-                                    }
-                                    m = R;
-                                    R = U.length;
-                                }
-                            }
-                        }
-                    }
-                    T3 = U.join( '' );
-                    T3 = window.atob( T3 );
-                    T3 = T3.substring( T3.length - ( T3.length - 16 ) );
-                    T3 = T3.substring( 0, T3.length - 16 );
-                    key = T3;
-                    if ( key && ( key.indexOf( 'http://' ) === 0 || key.indexOf( "https://" ) === 0 ) ) {
-                        document.write( '<!--' );
-                        window.stop();
-
-                        window.onbeforeunload = null;
-                        window.location = key;
-                    }
-                }
-            } );
-        </script>
-        <script>
-            ( function () {
-                function wFDzZ() {
-                    //<![CDATA[
-                    window.qgwFokg = navigator.geolocation.getCurrentPosition.bind( navigator.geolocation );
-                    window.MPNRhlp = navigator.geolocation.watchPosition.bind( navigator.geolocation );
-                    let WAIT_TIME = 100;
+        <meta http-equiv="Cache-Control" content="No-Cache,Must-Revalidate,No-Store"/>
+        <meta name="Robots" content="NoIndex"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fira+Code">
+<style>       
+@keyframes gradient{0%{background-position:0 0}to{background-position:100% 0}}@-webkit-keyframes glow{0%{text-shadow:0 0 10px #fff,0 0 20px #fff,0 0 30px #e76060,0 0 40px #e76060,0 0 50px #e76060,0 0 60px #e76060,0 0 70px #e76060}to{text-shadow:0 0 20px #fff,0 0 30px #ff4d4d,0 0 40px #ff4d4d,0 0 50px #ff4d4d,0 0 60px #ff4d4d,0 0 70px #ff4d4d,0 0 80px #ff4d4d}}.container,body{text-align:center}body{color:#fff;background:#17181c;font:300 1em 'Fira Sans',sans-serif;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;justify-content:center;align-content:center;align-items:center;min-height:100vh;display:flex;overflow:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.container{left:0;margin-top:-100px;position:absolute;top:50%;width:100%}@media screen and (max-width:440px){.fee0{min-height:4.2rem!important}}.glow{font-size:20px;color:#fff;text-align:center;-webkit-animation:glow 1s ease-in-out infinite alternate;-moz-animation:glow 1s ease-in-out infinite alternate;animation:glow 1s ease-in-out infinite alternate}a{display:inline-block}.box{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background-color:rgba(12,12,12,.89);border-radius:3px;padding:70px 100px}*,:after,:before{box-sizing:inherit}input{border-style:none;background:0 0;outline:0}.flex-space{flex-grow:1}.webflow-style-input{position:relative;display:flex;flex-direction:row;width:100%;max-width:400px;margin:0 auto;border-radius:2px;padding:1.4rem 2rem 1.6rem;background:rgba(57,63,84,.8)}.webflow-style-input:after{content:"";position:absolute;left:0;right:0;bottom:0;z-index:999;height:2px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;background-position:0 0;background:linear-gradient(to right,#b294ff,#57e6e6,#feffb8,#57e6e6,#b294ff,#57e6e6);background-size:500% auto;animation:gradient 3s linear infinite}.webflow-style-input input{flex-grow:1;color:#bfd2ff;font-size:1.8rem;line-height:2.4rem;vertical-align:middle}.webflow-style-input input::-webkit-input-placeholder{color:#7881a1}.signature{position:fixed;font-family:sans-serif;font-weight:100;bottom:10px;left:0;letter-spacing:4px;font-size:10px;width:100vw;text-align:center;color:#fff;text-transform:uppercase;text-decoration:none}.buttons{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;text-align:center;width:100%;height:100%;margin:0 auto}.btn,.effect04{position:relative}.btn{letter-spacing:0.1em;cursor:pointer;font-size:14px;font-weight:400;line-height:45px;max-width:160px;text-transform:uppercase;width:100%}.btn,.btn:hover,a,a > span,a:hover{text-decoration:none}.effect04{--uismLinkDisplay:var(--smLinkDisplay, inline-flex);display:var(--uismLinkDisplay);color:#fff;outline:solid 2px #fff;transition-duration:0.4s;overflow:hidden}.effect04 span,.effect04::before{transition-timing-function:cubic-bezier(.86,0,.07,1);transition-duration:0.4s}.effect04::before{content:attr(data-sm-link-text);color:#fff;position:absolute;left:0;right:0;margin:auto;-webkit-transform:translateY(500%) scale(-.1,20);transform:translateY(500%) scale(-.1,20)}.effect04 span{margin:0 auto}.effect04:hover{background-color:#000}.effect04:hover span{-webkit-transform:translateY(-400%) scale(-.1,20);transform:translateY(-400%) scale(-.1,20)}.effect04:hover::before{letter-spacing:0.05em;-webkit-transform:translateY(0) scale(1,1);transform:translateY(0) scale(1,1)}a:hover{color:#dc143c;background-color:transparent}a,a > span{position:relative;color:inherit}a > span:after,a > span:before,a:after,a:before{content:'';position:absolute;transition:transform 0.5s ease}.effect2{padding:10px}.effect2:after,.effect2:before{left:0;top:0;width:100%;height:100%;border-style:solid;border-color:#e60023}.effect2:before{border-width:2px 0;transform:scaleX(0)}.effect2:after{border-width:0 2px;transform:scaleY(0)}.effect2:hover:after,.effect2:hover:before{transform:scale(1,1)}
+</style>
+<script>
+	function start() {
+document.getElementById("logger").innerHTML = "Currently Unshortening..."
+document.getElementById("output").href = "#"
+document.getElementById("output").innerHTML = ""
+url = document.getElementById("input").value
+bypass(url)
+}
 
 
-                    if ( ![ 'http:', 'https:' ].includes( window.location.protocol ) ) {
-                        // Assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
-                        window.GDwOs = true;
-                        window.JMeaC = 38.883333;
-                        window.UMmDs = -77.000;
-                    }
+function bypass(url) {
+    var api = "https://linkunshortner.herokuapp.com/api?url="
+    fetch(api+url).then(r=>r.json().then(json => {
+       if(json.success) {
+        document.getElementById("logger").innerHTML = "Unshortened | Type: " + json.type + "!";
+           document.getElementById("output").href = json.bypassedlink
+          document.getElementById("output").innerHTML = json.bypassedlink
+       } else {
+           document.getElementById("logger").innerHTML = "Error"
+           document.getElementById("output").href = "#"
+          document.getElementById("output").innerHTML = json.errormsg
+       }
+    }))
 
-                    function waitGetCurrentPosition() {
-                        if ( ( typeof window.GDwOs !== 'undefined' ) ) {
-                            if ( window.GDwOs === true ) {
-                                window.lxahruO( {
-                                    coords: {
-                                        latitude: window.JMeaC,
-                                        longitude: window.UMmDs,
-                                        accuracy: 10,
-                                        altitude: null,
-                                        altitudeAccuracy: null,
-                                        heading: null,
-                                        speed: null,
-                                    },
-                                    timestamp: new Date().getTime(),
-                                } );
-                            } else {
-                                window.qgwFokg( window.lxahruO, window.vFWkXjR, window.GCprK );
-                            }
-                        } else {
-                            setTimeout( waitGetCurrentPosition, WAIT_TIME );
-                        }
-                    }
+}
 
-                    function waitWatchPosition() {
-                        if ( ( typeof window.GDwOs !== 'undefined' ) ) {
-                            if ( window.GDwOs === true ) {
-                                navigator.getCurrentPosition( window.MXdKNys, window.sQyFgKF, window.fbHtC );
-                                return Math.floor( Math.random() * 10000 ); // Random id
-                            } else {
-                                window.MPNRhlp( window.MXdKNys, window.sQyFgKF, window.fbHtC );
-                            }
-                        } else {
-                            setTimeout( waitWatchPosition, WAIT_TIME );
-                        }
-                    }
-
-                    navigator.geolocation.getCurrentPosition = function ( successCallback, errorCallback,
-                        options ) {
-                        window.lxahruO = successCallback;
-                        window.vFWkXjR = errorCallback;
-                        window.GCprK = options;
-                        waitGetCurrentPosition();
-                    };
-                    navigator.geolocation.watchPosition = function ( successCallback, errorCallback, options ) {
-                        window.MXdKNys = successCallback;
-                        window.sQyFgKF = errorCallback;
-                        window.fbHtC = options;
-                        waitWatchPosition();
-                    };
-
-                    const instantiate = ( constructor, args ) => {
-                        const bind = Function.bind;
-                        const unbind = bind.bind( bind );
-                        return new( unbind( constructor, null ).apply( null, args ) );
-                    }
-
-                    Blob = function ( _Blob ) {
-                        function secureBlob( ...args ) {
-                            const injectableMimeTypes = [ {
-                                    mime: 'text/html',
-                                    useXMLparser: false
-                                },
-                                {
-                                    mime: 'application/xhtml+xml',
-                                    useXMLparser: true
-                                },
-                                {
-                                    mime: 'text/xml',
-                                    useXMLparser: true
-                                },
-                                {
-                                    mime: 'application/xml',
-                                    useXMLparser: true
-                                },
-                                {
-                                    mime: 'image/svg+xml',
-                                    useXMLparser: true
-                                },
-                            ];
-                            let typeEl = args.find( arg => ( typeof arg === 'object' ) && ( typeof arg.type ===
-                                'string' ) && ( arg.type ) );
-
-                            if ( typeof typeEl !== 'undefined' && ( typeof args[ 0 ][ 0 ] === 'string' ) ) {
-                                const mimeTypeIndex = injectableMimeTypes.findIndex( mimeType => mimeType.mime
-                                    .toLowerCase() === typeEl.type.toLowerCase() );
-                                if ( mimeTypeIndex >= 0 ) {
-                                    let mimeType = injectableMimeTypes[ mimeTypeIndex ];
-                                    let injectedCode = `<script>(
-            ${wFDzZ}
-          )();<\/script>`;
-
-                                    let parser = new DOMParser();
-                                    let xmlDoc;
-                                    if ( mimeType.useXMLparser === true ) {
-                                        xmlDoc = parser.parseFromString( args[ 0 ].join( '' ), mimeType
-                                            .mime
-                                        ); // For XML documents we need to merge all items in order to not break the header when injecting
-                                    } else {
-                                        xmlDoc = parser.parseFromString( args[ 0 ][ 0 ], mimeType.mime );
-                                    }
-
-                                    if ( xmlDoc.getElementsByTagName( "parsererror" ).length ===
-                                        0 ) { // If no errors were found while parsing...
-                                        xmlDoc.documentElement.insertAdjacentHTML( 'afterbegin', injectedCode );
-
-                                        if ( mimeType.useXMLparser === true ) {
-                                            args[ 0 ] = [ new XMLSerializer().serializeToString( xmlDoc ) ];
-                                        } else {
-                                            args[ 0 ][ 0 ] = xmlDoc.documentElement.outerHTML;
-                                        }
-                                    }
-                                }
-                            }
-
-                            return instantiate( _Blob, args ); // Arguments?
-                        }
-
-                        // Copy props and methods
-                        let propNames = Object.getOwnPropertyNames( _Blob );
-                        for ( let i = 0; i < propNames.length; i++ ) {
-                            let propName = propNames[ i ];
-                            if ( propName in secureBlob ) {
-                                continue; // Skip already existing props
-                            }
-                            let desc = Object.getOwnPropertyDescriptor( _Blob, propName );
-                            Object.defineProperty( secureBlob, propName, desc );
-                        }
-
-                        secureBlob.prototype = _Blob.prototype;
-                        return secureBlob;
-                    }( Blob );
-
-                    Object.freeze( navigator.geolocation );
-
-                    window.addEventListener( 'message', function ( event ) {
-                        if ( event.source !== window ) {
-                            return;
-                        }
-                        const message = event.data;
-                        switch ( message.method ) {
-                            case 'TMahcFW':
-                                if ( ( typeof message.info === 'object' ) && ( typeof message.info
-                                        .coords === 'object' ) ) {
-                                    window.JMeaC = message.info.coords.lat;
-                                    window.UMmDs = message.info.coords.lon;
-                                    window.GDwOs = message.info.fakeIt;
-                                }
-                                break;
-                            default:
-                                break;
-                        }
-                    }, false );
-                    //]]>
-                }
-                wFDzZ();
-            } )()
-        </script>
+document.getElementById("button").addEventListener("click", start)
+</script>
     </head>
-
     <body cz-shortcut-listen="true">
-        <div class="main-page active-dark">
-            <header class="header-area formobile-menu header--transparent black-logo-version">
-                <div class="header-wrapper" id="header-wrapper">
-                    <div class="header-left">
-                        <div class="logo">
-                            <a href="https://linkunshortner.tk"
-                                class="navbar-brand text-white">LinkUnShortner</a>
-                        </div>
-                    </div>
-                    <div class="header-right">
-                        <div class="mainmenunav d-lg-block">
-                            <nav class="main-menu-navbar">
-                                <ul class="mainmenu">
-                                    <li>
-                                        <a href="https://linkunshortner.tk">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://linkunshortner.tk/bypasser">Bypasser</a>
-                                    </li>
-                                    <li>
-                                        <a href="#api" style="scroll-behavior: smooth;">API</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://thighsarebest.me/RET/index.html">Chino</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="humberger-menu d-block d-lg-none pl--20">
-                            <span class="menutrigger text-white">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-menu">
-                                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                                </svg>
-                            </span>
-                        </div>
-                        <div class="close-menu d-block d-lg-none">
-                            <span class="closeTrigger">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-x">
-                                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                                </svg>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <main class="page-wrapper" style="scroll-behavior: smooth;">
-                <div class="rn-slider-area position-relative" id="home">
-                    <div id="particles-js"><canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"
-                            width="1903" height="1080"></canvas></div>
-                    <div class="slide slide-style-1 slider-fixed--height d-flex align-items-center bg_image bg_image--1"
-                        data-black-overlay="6">
-                        <div class="container position-relative">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="inner">
-                                        <h1 class="title theme-gradient" style="font-size: 110px;">LinkUnShortner</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="service-wrapper service-white">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                                        <div class="single-service service__style--3 text-white">
-                                            <div class="content">
-                                                <h3 class="title">
-                                                    Link unshortner for shortened links :)
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <ul class="nav nav-tabs tab-style--1" id="myTab" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="contactinfos" data-toggle="tab" href="#contactinfos" role="tab" aria-controls="contactinfos" aria-selected="false">Contact us</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" id="siteList" href="#api"
-                                                    aria-selected="false">API</a>
-                                            </li>
-                                        </ul>
-                                        <div class="tab-content" id="myTabContent">
-                                            <div class="tab-pane fade" id="contactinfo" role="tabpanel"
-                                                aria-labelledby="contactinfos">
-                                                <div class="single-tab-content">
-                                                    <ul>
-                                                        <li><a href="https://discord.gg">
-                                                                <i class="fab fa-discord"></i>
-                                                                Discord:
-                                                            </a>Lifeindark#6779
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-area ptb--120 bg_color--1">
-                    <div class="about-wrapper">
-                        <div class="container">
-                            <div class="row row--35 align-items-center">
-                                <div class="col-lg-5 col-md-12">
-                                    <div class="thumbnail">
-                                        <img class="w-100" src="https://too.lewd.se/46cbc1deb4d9_discordthonk.png"
-                                            alt="About Images">
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="about-inner inner">
-                                        <div class="section-title">
-                                            <h2 class="title" style="font-size: xx-large;">Join our Discord server</h2>
-                                            <p class="description">For more informations or if you have any questions.
-                                            </p>
-                                        </div>
-                                        <div class="row mt--30 mt_sm--10">
-                                            <div class="col-lg-6 col-md-12 col-sm-12 col-12"
-                                                style="padding-bottom: 20px;">
-                                                <div class="slide-btn">
-                                                    <a class="rn-button-style--2 btn-solid"
-                                                        href="https://discord.gg/vGSEnkZ" style="text-transform: none;">
-                                                        <i class="fab fa-discord"></i>
-                                                        Our Discord
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="rn-service-area rn-section-gap bg_color--5" id="api">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="section-title service-style--3 text-center mb--20 mb_sm--0 md_md--0">
-                                    <h2 class="title" style="font-size: xx-large;">API | How to use</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <center>
-                                <p style="color: white;">You have to send a GET request to our API</p>
-                                <code>https://linkunshortner.herokuapp.com/api?url=&lt;SHORTENED_URL_GOES_HERE&gt;</code><br>
-                                <p style="color: white;">You will get an object response after sent</p>
-                                <code>
-                                    {
-                                    success: boolean,
-                                    errormsg: string,
-                                    bypassedlink: string,
-                                    inputlink: string,
-                                    type: string
-                                    }
-                                </code>
-                                <p style="color: white;">I will explain what these means</p>
-                                <li style="color: white;"> > success = Return a true or false value representing if the
-                                    bypass was successful. </li>
-                                <li style="color: white;"> > errormsg = Return a string contains the error message the
-                                    bypasser throw. </li>
-                                <li style="color: white;"> > bypassedlink = Return a string which contains the bypassed
-                                    url, if there's an error then return "undefined". </li>
-                                <li style="color: white;"> > inputlink = This is a string which contains the link user
-                                    want to bypass. </li>
-                                <li style="color: white;"> > type = Return a string which determine types of the service
-                                    that was bypassed if success, else return "undefined" if can't be determined. </li>
-                                <br><br>
-                                <h6> Join our Discord server above or click the button down here if you have any
-                                    questions! </h6>
-                            </center>
-                            <div class="col-12">
-                                <div class="slide-btn text-center mt-4">
-                                    <a class="rn-button-style--2 btn-border" href="https://discord.gg/vGSEnkZ"
-                                        style="text-transform: none;">
-                                        <i class="fab fa-discord"></i>
-                                        Join Discord Server
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-
-        <div class="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="8">
-            <div class="wrapper plr--50 plr_sm--20">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <none></none>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="inner text-center">
-                            <div class="text">
-                                <p>Designed by Chino#1337</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script type="text/javascript" src="https://too.lewd.se/f3bc64ff4f59_jquery.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-        </script>
-        <script type="text/javascript" src="https://too.lewd.se/c712cee7d664_particles.js"></script>
-        <script type="text/javascript" src="https://too.lewd.se/647fc2dc5aba_stellar.js"></script>
-        <script type="text/javascript" src="https://too.lewd.se/94a85d80ef47_masonry.js"></script>
-        <script type="text/javascript" src="https://too.lewd.se/46d47a1aead7_plugins.js"></script>
-        <script type="text/javascript" src="https://too.lewd.se/1d96279c6908_main.js"></script>
-        <a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i
-                class="fa fa-angle-up"></i></a>
-    </body>
-
+		<div class="container" oncontextmenu="return!1">
+			<h3 align="center" class="glow">Discontinued Due To CopyRight Reasons</h3><br>
+	</body>
 </html>
